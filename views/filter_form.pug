@@ -1,0 +1,18 @@
+extends index.pug
+
+block content
+  form(action="/filter-result", method="post")
+    table
+      tr
+        td
+          input(type="radio", name="radioFilter" value="trailerLinks")
+        td
+          label(for="trailerLinks") Show all trailers
+      tr
+        td
+          input(type="radio", name="radioFilter" value="addedByList")
+        td
+          label(for="addedByList") Show list of all contributors
+
+
+    input(type="submit", value="Show")

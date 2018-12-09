@@ -1,0 +1,48 @@
+{
+ "description": "A list of movie trailers.",
+ "trailers": [
+  {
+   "title": "Jurassic Park",
+   "id": "482836",
+   "youtube": "https://www.youtube.com/watch?v=lc0UehYemQA",
+   "rating": 3,
+   "addedBy": "AntonP"
+  },
+  {
+   "title": "The Lion King",
+   "id": "952831",
+   "youtube": "https://www.youtube.com/watch?v=_ujGv5dhGfk",
+   "rating": 4,
+   "addedBy": "SomeDude"
+  },
+  {
+   "title": "The Lego Movie",
+   "id": "172834",
+   "youtube": "https://www.youtube.com/watch?v=0fscbwJVWXQ",
+   "rating": 2,
+   "addedBy": "AntonP",
+   "changedBy": "AntonP"
+  },
+  {
+   "title": "Pusher",
+   "id": "927364",
+   "youtube": "https://www.youtube.com/watch?v=dLEaPB9UBWM",
+   "rating": 5,
+   "addedBy": "SomeDude"
+  },
+  {
+   "title": "Låt den rätte komma in",
+   "id": "294652",
+   "youtube": "https://youtu.be/qrIcYgS8nRc",
+   "rating": 3,
+   "addedBy": "SomeOtherDude"
+  },
+  {
+   "title": "Get out",
+   "id": "542803",
+   "youtube": "https://www.youtube.com/watch?v=DzfpyUB60YY",
+   "rating": 4,
+   "addedBy": "AntonP"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+extends index.pug
+
+block content
+  form(action="/add-new", method="post")
+    table
+      tr
+        td
+          label(for="title") Title:
+        td
+          input(type="text", name="title")
+      tr
+        td
+          label(for="link") Youtube link:
+        td
+          input(type="url", name="link")
+      tr
+        td
+          label(for="rating") Rating (1-5):
+        td
+          input(type="number", name="rating", max="5")
+      tr
+        td
+          label(for="addedBy") Added by:
+        td
+          input(type="text", name="addedBy")
+
+    input(type="submit", value="Add Trailer")
