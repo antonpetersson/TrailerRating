@@ -1,5 +1,7 @@
 # TrailerRating
 Simpel API som lagrar betyg och länkar till filmtrailers i json-fil med frontend renderad i pug.
+
+Kommentarer ligger i server.js
 <table>
 	<tr>
    	<td>/</td>	<td>Redirectar till /filter</td>
